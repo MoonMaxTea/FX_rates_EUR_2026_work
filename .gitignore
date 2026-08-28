@@ -1,0 +1,26 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local / regenerable intermediates (keep deliverables + skill)
+ecb_raw*.csv
+daily_rates_*.csv
+monthly_audit.json
+_f_*.json
+_excel_batch*.json
+_gen_*.py
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
